@@ -1,0 +1,109 @@
+body {
+    font-size: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+
+.wrapper {
+    margin-top: 100px;
+    background: rgb(216, 193, 162);
+    border: 20px solid rgb(148, 133, 114);
+    box-shadow: 0px 0px 20px rgb(219, 207, 166);
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.wrapperBut {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 500px;
+}
+
+.sec_text {
+    font-size: 100px;
+    position: absolute;
+    bottom: 50px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: rgb(73, 65, 55);
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(216, 193, 162);
+    border: 10px solid rgb(148, 133, 114);
+    box-shadow: 0px 0px 15px rgb(219, 207, 166);
+    color: rgb(73, 65, 55);
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: 100%;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: rgb(148, 133, 114) 3px 0 10px;
+    transition: 0.2s;
+}
+
+#reset__btn {
+    position: absolute;
+
+    top: 150px;
+    left: 156px;
+}
+
+#start__btn:hover {
+    background-color: rgb(118, 161, 115);
+    transition: 0.3s;
+}
+
+#stop__btn:hover {
+    background-color: rgb(189, 123, 107);
+    transition: 0.3s;
+}
+
+button:hover {
+    border: 10px solid rgb(197, 178, 150);
+    background-color: rgb(177, 158, 134);
+    box-shadow: 0px 0px 30px rgb(184, 165, 141);
+    color: rgb(31, 28, 24);
+
+}
+
+
+button:active {
+    border: 10px solid rgb(59, 53, 45);
+    box-shadow: 0px 0px 30px rgb(59, 53, 45);
+    color: rgb(216, 193, 162);
+
+}
+
+.timer {
+    height: 150px;
+    width: auto;
+    color: rgb(73, 65, 55);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 120px;
+    text-shadow: rgb(148, 133, 114) 3px 0 10px;
+
+}
